@@ -262,12 +262,12 @@
 
         Symbols {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                                                           &trans                &trans                 &trans     &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans           &trans                &trans                 &trans     &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &kp GRAVE        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PLUS   &kp AMPS  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &kp AT           &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS  &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL  &trans    &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans                   &trans                &trans                 &trans     &trans    &trans
+&trans  &trans  &trans  &trans  &trans                                                                           &trans                &trans                 &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans           &trans                &trans                 &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                  &kp GRAVE        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PLUS   &kp AMPS   &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                  &kp AT           &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS  &kp UNDER  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL  &trans     &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans                   &trans                &trans                 &trans     &trans     &trans
             >;
         };
     };
