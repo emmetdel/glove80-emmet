@@ -36,15 +36,6 @@
             bindings = <&mo LOWER>, <&to LOWER>;
         };
 
-        magic: magic_hold_tap {
-            compatible = "zmk,behavior-hold-tap";
-            label = "MAGIC_HOLD_TAP";
-            #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <200>;
-            bindings = <&mo>, <&rgb_ug_status_macro>;
-        };
-
         hmr: hmr {
             compatible = "zmk,behavior-hold-tap";
             label = "HMR";
@@ -227,12 +218,12 @@
 
         layer_Base {
             bindings = <
-&kp F1      &kp F2           &kp F3           &kp F4        &kp F5                                                                                               &kp F6              &kp F7        &kp F8            &kp F9            &kp DEL
-&kp EQUAL   &kp N1           &kp N2           &kp N3        &kp N4             &kp N5                                                                    &kp N6  &kp N7              &kp N8        &kp N9            &kp N0            &kp MINUS
-&none       &kp Q            &kp W            &kp F         &kp P              &kp B                                                                     &kp J   &kp L               &kp U         &kp Y             &kp SEMI          &kp BSLH
-&none       &hml LEFT_ALT A  &hml LEFT_GUI R  &hml LCTRL S  &hml LEFT_SHIFT T  &kp G                                                                     &kp M   &hmr RIGHT_SHIFT N  &hmr RCTRL E  &hmr RIGHT_GUI I  &hmr RIGHT_ALT O  &kp SQT
-&kp GRAVE   &kp Z            &kp X            &kp C         &kp D              &kp V   &kp LSHFT  &mo 3    &lower      &none     &none      &kp RSHFT    &kp K   &kp H               &kp COMMA     &kp DOT           &kp FSLH          &kp PG_UP
-&magic 2 0  &none            &none            &kp LEFT      &kp RIGHT                  &kp BSPC   &kp TAB  &kp ESCAPE  &kp RALT  &kp ENTER  &lt 4 SPACE          &kp DOWN_ARROW      &kp UP_ARROW  &kp LBKT          &kp RBKT          &kp PG_DN
+&kp F1     &kp F2           &kp F3           &kp F4        &kp F5                                                                                               &kp F6              &kp F7        &kp F8            &kp F9            &kp DEL
+&kp EQUAL  &kp N1           &kp N2           &kp N3        &kp N4             &kp N5                                                                    &kp N6  &kp N7              &kp N8        &kp N9            &kp N0            &kp MINUS
+&none      &kp Q            &kp W            &kp F         &kp P              &kp B                                                                     &kp J   &kp L               &kp U         &kp Y             &kp SEMI          &kp BSLH
+&none      &hml LEFT_ALT A  &hml LEFT_GUI R  &hml LCTRL S  &hml LEFT_SHIFT T  &kp G                                                                     &kp M   &hmr RIGHT_SHIFT N  &hmr RCTRL E  &hmr RIGHT_GUI I  &hmr RIGHT_ALT O  &kp SQT
+&kp GRAVE  &kp Z            &kp X            &kp C         &kp D              &kp V   &kp LSHFT  &mo 3    &lower      &none     &none      &kp RSHFT    &kp K   &kp H               &kp COMMA     &kp DOT           &kp FSLH          &kp PG_UP
+&none      &none            &none            &kp LEFT      &kp RIGHT                  &kp BSPC   &kp TAB  &kp ESCAPE  &kp RALT  &kp ENTER  &lt 4 SPACE          &kp DOWN_ARROW      &kp UP_ARROW  &kp LBKT          &kp RBKT          &kp PG_DN
             >;
         };
 
@@ -243,7 +234,7 @@
 &trans        &none         &none           &kp UP_ARROW    &none            &kp END                                                    &kp RIGHT_PARENTHESIS  &kp KP_N7   &kp KP_N8     &kp KP_N9     &kp KP_MINUS     &kp SCROLLLOCK
 &trans        &none         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PG_UP                                                  &kp PERCENT            &kp KP_N4   &kp KP_N5     &kp KP_N6     &kp KP_PLUS      &none
 &trans        &kp K_APP     &none           &kp F11         &kp F12          &kp PG_DN  &trans  &trans  &to 0   &trans  &trans  &trans  &kp COMMA              &kp KP_N1   &kp KP_N2     &kp KP_N3     &kp KP_ENTER     &trans
-&magic 2 0    &kp CAPS      &kp INS         &kp F11         &kp F12                     &trans  &trans  &trans  &trans  &trans  &trans                         &kp KP_N0   &kp KP_N0     &kp KP_DOT    &kp KP_ENTER     &trans
+&none         &kp CAPS      &kp INS         &kp F11         &kp F12                     &trans  &trans  &trans  &trans  &trans  &trans                         &kp KP_N0   &kp KP_N0     &kp KP_DOT    &kp KP_ENTER     &trans
             >;
         };
 
