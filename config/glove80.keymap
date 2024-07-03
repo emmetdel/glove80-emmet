@@ -210,12 +210,12 @@
 
         layer_Base {
             bindings = <
-&kp F1     &kp F2           &kp F3           &kp F4        &kp F5                                                                                               &kp F6              &kp F7        &kp F8            &kp F9            &kp DEL
-&kp EQUAL  &kp N1           &kp N2           &kp N3        &kp N4             &kp N5                                                                    &kp N6  &kp N7              &kp N8        &kp N9            &kp N0            &kp MINUS
-&none      &kp Q            &kp W            &kp F         &kp P              &kp B                                                                     &kp J   &kp L               &kp U         &kp Y             &kp SEMI          &kp BSLH
-&none      &hml LEFT_ALT A  &hml LEFT_GUI R  &hml LCTRL S  &hml LEFT_SHIFT T  &kp G                                                                     &kp M   &hmr RIGHT_SHIFT N  &hmr RCTRL E  &hmr RIGHT_GUI I  &hmr RIGHT_ALT O  &kp SQT
-&kp GRAVE  &kp Z            &kp X            &kp C         &kp D              &kp V   &kp LSHFT  &mo 3    &mo 1       &none     &none      &kp RSHFT    &kp K   &kp H               &kp COMMA     &kp DOT           &kp FSLH          &kp PG_UP
-&none      &none            &none            &kp LEFT      &kp RIGHT                  &kp BSPC   &kp TAB  &kp ESCAPE  &kp RALT  &kp ENTER  &lt 4 SPACE          &kp DOWN_ARROW      &kp UP_ARROW  &kp LBKT          &kp RBKT          &kp PG_DN
+&kp F1      &kp F2           &kp F3           &kp F4        &kp F5                                                                                               &kp F6              &kp F7        &kp F8            &kp F9            &kp DEL
+&kp EQUAL   &kp N1           &kp N2           &kp N3        &kp N4             &kp N5                                                                    &kp N6  &kp N7              &kp N8        &kp N9            &kp N0            &kp MINUS
+&none       &kp Q            &kp W            &kp F         &kp P              &kp B                                                                     &kp J   &kp L               &kp U         &kp Y             &kp SEMI          &kp BSLH
+&none       &hml LEFT_ALT A  &hml LEFT_GUI R  &hml LCTRL S  &hml LEFT_SHIFT T  &kp G                                                                     &kp M   &hmr RIGHT_SHIFT N  &hmr RCTRL E  &hmr RIGHT_GUI I  &hmr RIGHT_ALT O  &kp SQT
+&kp GRAVE   &kp Z            &kp X            &kp C         &kp D              &kp V   &kp LSHFT  &mo 3    &mo 1       &none     &none      &kp RSHFT    &kp K   &kp H               &kp COMMA     &kp DOT           &kp FSLH          &kp PG_UP
+&magic 2 0  &none            &none            &kp LEFT      &kp RIGHT                  &kp BSPC   &kp TAB  &kp ESCAPE  &kp RALT  &kp ENTER  &lt 4 SPACE          &kp DOWN_ARROW      &kp UP_ARROW  &kp LBKT          &kp RBKT          &kp PG_DN
             >;
         };
 
