@@ -289,12 +289,12 @@
 
         Symbols {
             bindings = <
-&trans  &trans     &trans            &trans                &trans                                                                          &trans            &trans                 &trans             &trans         &trans
-&trans  &trans     &trans            &trans                &trans          &trans                                                  &trans  &trans            &trans                 &trans             &trans         &trans
-&trans  &kp MINUS  &kp BACKSLASH     &kp DOLLAR            &kp LESS_THAN   &trans                                                  &trans  &kp GREATER_THAN  &kp HASH               &kp SLASH          &trans         &trans
-&trans  &kp UNDER  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE  &trans                                                  &trans  &kp RIGHT_BRACE   &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp SEMICOLON  &trans
-&trans  &trans     &trans            &trans                &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans                 &trans             &trans         &trans
-&trans  &trans     &trans            &trans                &trans                  &trans  &trans  &trans  &trans  &trans  &trans          &trans            &trans                 &trans             &trans         &trans
+&trans  &trans     &trans            &trans                &trans                                                                                               &trans            &trans                 &trans             &trans         &trans
+&trans  &trans     &trans            &trans                &trans          &trans                                                            &trans             &trans            &trans                 &trans             &trans         &trans
+&trans  &kp MINUS  &kp BACKSLASH     &kp DOLLAR            &kp LESS_THAN   &trans                                                            &trans             &kp GREATER_THAN  &kp HASH               &kp SLASH          &trans         &trans
+&trans  &kp UNDER  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE  &kp SINGLE_QUOTE                                                  &kp DOUBLE_QUOTES  &kp RIGHT_BRACE   &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp SEMICOLON  &trans
+&trans  &trans     &kp CARET         &kp PERCENT           &kp AT          &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans             &kp KP_EQUAL      &kp GRAVE              &kp TILDE          &trans         &trans
+&trans  &trans     &trans            &trans                &trans                            &trans  &trans  &trans  &trans  &trans  &trans                     &trans            &trans                 &trans             &trans         &trans
             >;
         };
     };
