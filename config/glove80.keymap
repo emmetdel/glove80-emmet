@@ -104,7 +104,7 @@
         paste: paste {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LG(P)>;
+            bindings = <&kp LG(V)>;
             label = "PASTE";
         };
 
@@ -120,6 +120,20 @@
             #binding-cells = <0>;
             bindings = <&kp LG(LS(Z))>;
             label = "REDO";
+        };
+
+        desktop_left: desktop_left {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(LEFT_ARROW)>;
+            label = "DESKTOP_LEFT";
+        };
+
+        desktop_right: desktop_right {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(RIGHT)>;
+            label = "DESKTOP_RIGHT";
         };
     };
 };
@@ -262,12 +276,12 @@
 
         layer_functions {
             bindings = <
-&trans  &trans  &trans        &trans      &trans                                                                        &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans        &trans      &trans        &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp C_VOL_DN  &kp C_MUTE  &kp C_VOL_UP  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp C_PREV    &kp C_PP    &kp C_NEXT    &trans                                                  &trans  &copy   &paste  &undo   &redo   &trans
-&trans  &trans  &trans        &trans      &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans        &trans      &trans                &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans        &trans      &trans                                                                        &trans         &trans  &trans          &trans  &trans
+&trans  &trans  &trans        &trans      &trans        &trans                                                  &trans  &trans         &trans  &trans          &trans  &trans
+&trans  &trans  &kp C_VOL_DN  &kp C_MUTE  &kp C_VOL_UP  &trans                                                  &trans  &desktop_left  &trans  &desktop_right  &trans  &trans
+&trans  &trans  &kp C_PREV    &kp C_PP    &kp C_NEXT    &trans                                                  &trans  &copy          &paste  &undo           &redo   &trans
+&trans  &trans  &trans        &trans      &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans         &trans  &trans          &trans  &trans
+&trans  &trans  &trans        &trans      &trans                &trans  &trans  &trans  &trans  &trans  &trans          &trans         &trans  &trans          &trans  &trans
             >;
 
             label = "Functions";
