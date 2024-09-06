@@ -276,12 +276,12 @@
 
         layer_functions {
             bindings = <
-&trans  &trans  &trans        &trans      &trans                                                                        &trans         &trans  &trans          &trans  &trans
-&trans  &trans  &trans        &trans      &trans        &trans                                                  &trans  &trans         &trans  &trans          &trans  &trans
-&trans  &trans  &kp C_VOL_DN  &kp C_MUTE  &kp C_VOL_UP  &trans                                                  &trans  &desktop_left  &trans  &desktop_right  &trans  &trans
-&trans  &trans  &kp C_PREV    &kp C_PP    &kp C_NEXT    &trans                                                  &trans  &copy          &paste  &undo           &redo   &trans
-&trans  &trans  &trans        &trans      &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans         &trans  &trans          &trans  &trans
-&trans  &trans  &trans        &trans      &trans                &trans  &trans  &trans  &trans  &trans  &trans          &trans         &trans  &trans          &trans  &trans
+&none  &none  &none         &none       &none                                                                 &none          &none   &none           &none  &none
+&none  &none  &none         &none       &none         &none                                            &none  &none          &none   &none           &none  &none
+&none  &none  &kp C_VOL_DN  &kp C_MUTE  &kp C_VOL_UP  &none                                            &none  &desktop_left  &none   &desktop_right  &none  &none
+&none  &none  &kp C_PREV    &kp C_PP    &kp C_NEXT    &none                                            &none  &copy          &paste  &undo           &redo  &none
+&none  &none  &none         &none       &none         &none  &none  &none  &none  &none  &none  &none  &none  &none          &none   &none           &none  &none
+&none  &none  &none         &none       &none                &none  &none  &none  &none  &none  &none         &none          &none   &none           &none  &none
             >;
 
             label = "Functions";
@@ -289,12 +289,12 @@
 
         Symbols {
             bindings = <
-&trans  &trans     &trans            &trans                &trans                                                                                               &trans            &trans                 &trans             &trans         &trans
-&trans  &trans     &trans            &trans                &trans          &trans                                                            &trans             &trans            &trans                 &trans             &trans         &trans
-&trans  &kp MINUS  &kp BACKSLASH     &kp DOLLAR            &kp LESS_THAN   &trans                                                            &trans             &kp GREATER_THAN  &kp HASH               &kp SLASH          &trans         &trans
-&trans  &kp UNDER  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE  &kp SINGLE_QUOTE                                                  &kp DOUBLE_QUOTES  &kp RIGHT_BRACE   &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp SEMICOLON  &trans
-&trans  &trans     &kp CARET         &kp PERCENT           &kp AT          &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans             &kp KP_EQUAL      &kp GRAVE              &kp TILDE          &trans         &trans
-&trans  &trans     &trans            &trans                &trans                            &trans  &trans  &trans  &trans  &trans  &trans                     &trans            &trans                 &trans             &trans         &trans
+&none  &none      &none             &none                 &none                                                                                          &none             &none                  &none              &none          &none
+&none  &none      &none             &none                 &none           &none                                                       &none              &none             &none                  &none              &none          &none
+&none  &kp MINUS  &kp BACKSLASH     &kp DOLLAR            &kp LESS_THAN   &none                                                       &none              &kp GREATER_THAN  &kp HASH               &kp SLASH          &none          &none
+&none  &kp UNDER  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE  &kp SINGLE_QUOTE                                            &kp DOUBLE_QUOTES  &kp RIGHT_BRACE   &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp SEMICOLON  &none
+&none  &none      &kp CARET         &kp PERCENT           &kp AT          &none             &none  &none  &none  &none  &none  &none  &none              &kp KP_EQUAL      &kp GRAVE              &kp TILDE          &none          &none
+&none  &none      &none             &none                 &none                             &none  &none  &none  &none  &none  &none                     &none             &none                  &none              &none          &none
             >;
         };
     };
